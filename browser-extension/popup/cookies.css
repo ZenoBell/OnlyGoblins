@@ -1,0 +1,17 @@
+:root { color-scheme: dark; font: 14px system-ui, sans-serif; background: #171020; color: #eee7f5; }
+body { width: 410px; margin: 16px; }
+header { display: flex; align-items: center; gap: 14px; }
+header img { width: 72px; height: 72px; border-radius: 16px; }
+h1 { font-size: 23px; color: #a3d86b; margin: 0; }
+h1 small { font-size: 16px; color: #dbb866; }
+p { line-height: 1.4; }
+label { display: block; margin: 10px 0 5px; }
+select, textarea { box-sizing: border-box; width: 100%; background: #241733; color: #eee7f5; border: 1px solid #78549a; border-radius: 6px; padding: 8px; }
+textarea { height: 155px; resize: vertical; font: 12px monospace; }
+button { background: #683f90; color: white; border: 1px solid #9974bc; border-radius: 6px; padding: 9px; cursor: pointer; margin-top: 9px; }
+button:hover { background: #8053a5; }
+button:disabled { opacity: .5; cursor: default; }
+#export { width: 100%; background: #41652a; }
+.actions { display: flex; gap: 8px; }
+.warning { color: #e6c57d; font-size: 12px; }
+footer { color: #b6a6c7; font-size: 11px; }

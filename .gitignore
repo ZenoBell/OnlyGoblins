@@ -1,0 +1,290 @@
+# ===================================================================
+# PYTHON
+# ===================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PEP 582
+__pypackages__/
+
+# pdm
+.pdm.toml
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# ===================================================================
+# IDE / EDITORS
+# ===================================================================
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===================================================================
+# OS GENERATED
+# ===================================================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===================================================================
+# CREDENTIALS / SENSITIVE DATA
+# ===================================================================
+
+watermark_blacklist.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ===================================================================
+# FANSLY DOWNLOADER NG - PERSONAL/SENSITIVE DATA
+# ===================================================================
+
+# Config files with authentication tokens
+config.ini
+onlyfans_config.ini
+config.ini.backup
+config_args.ini
+*.ini.bak
+
+# GUI application state
+gui_state.json
+onlyfans_gui_state.json
+crop_presets.json
+
+# Application logs
+*.log
+fansly_downloader*.log
+
+# User download directories
+*_fansly/
+Downloads/
+
+# ===================================================================
+# BUILD ARTIFACTS
+# ===================================================================
+
+# PyInstaller build outputs
+release/
+
+# Linux/macOS binary
+fansly-downloader-ng
+
+# ===================================================================
+# DEVELOPMENT / TESTING
+# ===================================================================
+
+# Claude Code files
+.claude/
+claude.md
+settings.local.json
+file-index.md
+
+# Temporary files
+temp/
+*.tmp
+*.temp
+*.bak
+local/
+*.local
+
+# Test scripts
+api_tester.py
+
+# Development notes
+EXE_TESTING_NOTES.md
+*_TESTING_NOTES.md
+*_NOTES.md
+README1.md
+*plan*.md
+RELEASE_NOTES.md
+ONLYFANS_IMPLEMENTATION.md
+*TODO.md
+
+# Misc
+logo*.txt
+dummy.*
+
+# ===================================================================
+# FRAMEWORK SPECIFIC (Django/Flask/Scrapy/Sphinx/mkdocs)
+# ===================================================================
+
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+.pybuilder/
+target/
+/site
+
+# ===================================================================
+# NODE (if any)
+# ===================================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Private runtime state and local development artifacts
+.build-tools/
+.env.*
+!.env.example
+*.har
+*.cookies
+cookies*.txt
+auth.json
+auth_*.json
+auth_export*.json
+onlygoblins-auth-export*.json
+*credentials*.json
+*credentials*.txt
+config*.ini
+!config.sample.ini
+onlyfans_config*.ini
+log_window_settings.json
+crop_settings.json
+download_history.json
+*_gui_state.json
+*_state.json
+*_fansly/
+*-of/
+*.exe
+*.zip
+
+# Release audit outputs and private exports
+*.dmp
+*.dump
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.jsonl
+*.bak
+*.backup
+*.mp4
+*.m4v
+*.mkv
+*.webm
+*.mp3
+*.m4a
+*.ts
+auth*.txt
+session*.json
+session*.txt
+*_history.json
+*_history.json.*
+
+!onlyfans_config.sample.ini
+
+# Original input and intermediate icon are retained locally. Canonical assets are in assets/branding.
+/fangoblin-logo.png
+/resources/fangoblin.ico
+
+# Retained locally until separate redistribution permission is established.
+/docs/Elements-of-the-H.264-VideoAAC-Audio-MP4-Movie-v2_0.pdf

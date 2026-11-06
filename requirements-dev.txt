@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8.0,<10
+pyinstaller>=6.22.3,<7
+# Optional Fansly browser-storage support in the Windows bundle.
+plyvel-ci==1.5.1; sys_platform == "win32"

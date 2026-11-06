@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlyGoblins Cookie Helper</title>
+  <link rel="stylesheet" href="cookies.css">
+  <script defer src="export.js"></script>
+  <script defer src="cookies.js"></script>
+</head>
+<body>
+  <header><img src="../icons/onlygoblins.png" alt="OnlyGoblins mascot"><h1>OnlyGoblins<br><small>Cookie Helper</small></h1></header>
+  <p>Export your own signed-in session. Nothing is sent to OnlyGoblins automatically.</p>
+  <label for="tab-list">OnlyFans tab / Firefox container</label>
+  <select id="tab-list"></select>
+  <button id="export" disabled>Export this session</button>
+  <p id="status" role="status" aria-live="polite">No session collected.</p>
+  <label for="json">Private authentication JSON</label>
+  <textarea id="json" readonly spellcheck="false" aria-label="Private authentication JSON"></textarea>
+  <div class="actions">
+    <button id="copy-to-clipboard" disabled>Copy JSON</button>
+    <button id="save-json" disabled>Save JSON file</button>
+    <button id="clear">Clear</button>
+  </div>
+  <p class="warning">This export grants access to your session. Never share it, attach it to an issue, or commit it. Clear clipboard history and delete your export after import.</p>
+  <footer>Maintained by ZenoBell. Derived from M-rcus's MIT-licensed OnlyFans Cookie Helper. Not affiliated with OnlyFans.</footer>
+</body>
+</html>
